@@ -1,9 +1,9 @@
 // Define UI vars
-const form = document.querySelector('#task-form');
-const filter = document.querySelector('#filter');
-const taskList = document.querySelector('.collection');
+const form      = document.querySelector('#task-form');
+const filter    = document.querySelector('#filter');
+const taskList  = document.querySelector('.collection');
 const taskInput = document.querySelector('#task');
-const clearBtn = document.querySelector('.clear-tasks');
+const clearBtn  = document.querySelector('.clear-tasks');
 
 // Load all event listeners
 loadEventListeners();
